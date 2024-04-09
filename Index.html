@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankaj Parmar GIS Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ce9c673d69.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="#services"><b>Servives</b></a></li>
+                    <li><a href="https://uploads.knightlab.com/storymapjs/9bf1a0480f911604e51ce9be3751ba53/portfolio/index.html"><b>Story Map</b></a></li>
+                    <li><a href="#portfolio"><b>Portfolio</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
+                    <!-- Updated the classes for Font Awesome icons below -->
+                    <i class="fa fa-minus" onclick="closemenu()"></i>
+                </ul>
+                <!-- Updated the class for Font Awesome icon below -->
+                <i class="fa fa-caret-square-down" onclick="openmenu()"></i>
+            </nav>            
+            <div class="header-text">
+                <p>Geospatial Analyst</p>
+                <h1>Hi, I'm <span>Pankaj</span> <br>Parmar from Sheffield</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------------about--------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/My-photo.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Orginally from Bhiwani, India. Currently I am living in Sheffield, UK. I have been in Sheffield since 2022, living in various neighborhoods of the city. Current hobbies outside of GIS includes playing volleyball, listening to music and creating animated GIFs. I enjoy engaging with people from diverse culture and sharing experinences and learning different languages. Currenlty I have proficeincy in Hindi, English, Sanskrit, and currently learning Chinese.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tabs" id="skills">
+                    <ul><li>
+                        <span>Geospatial Analyst</span><br>GIS Developer/Consultant</li>
+                        <li><span>Geospatial Web tools</span><br>Online story maps creation and OSM data gathering</li>
+                        <li><span>Remote Sensing and satellite imagery</span><br>Climate change and environment monitoring</li></ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul><li>
+                        <span>Jan 2023 - Nov 2023</span><br>Geospatial Analyst at Automatic Knowledge</li>
+                
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul><li>
+                        <span>2023</span><br>MSc in Applied GIS from The University of Sheffield, United Kingdom</li>
+                        <li><span>2021</span><br>BA Hons (Geography) from The University Of Delhi, India</li>
+                        <li><span>2018</span><br>Highschool from the Central Board Of Secondary Education, Delhi, India</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------services---------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-map"></i>
+                <h2>GIS Consultancy</h2>
+                <p>Worked as GIS Consultant for clients as part of academics and while working for Automatic Knowledge Ltd.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-earth-europe"></i>
+                <h2>Remote Sensing</h2>
+                <p>Experience of working with satellite imagery datasets for measuring the Flood disaster, preparedness plan, Landuse and Landcover analysis, Air quality monitoring and climate change.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-area"></i>
+                <h2>Spatial and Statistical data analysis</h2>
+                <p>Proficient in using Python, R and web tools like Overpass QL, MapBox for spatial and statistical analysis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-area"></i>
+                <h2>Cartography</h2>
+                <p>Styled cartographic maps and visualisations during postgraduation as well as while working with Dr Rae at Automatic Knowledge Ltd.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------------------------Portfolio------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Connectivity Path.png">
+                <br>
+                <p>Habitat Analysis of Wythenshawe’s woodlands for Lesser Spotted Woodpeckers</p>
+                <div class="layer">
+                    <h3></h3>
+                        <p></p>
+                        <a href="https://docs.google.com/document/d/1vNIfxtI4fZ_YOghxlinMfPlScsdkobeg/edit?usp=sharing&ouid=105189899451833128882&rtpof=true&sd=true"><i class="fa-solid fa-file-lines"></i></a> 
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/TravelTime.png">
+                <br>
+                <p>Travel time to Radiotherapy
+                    centres across the UK</p>
+                <div class="layer">
+                    <h3>Travel time analysis</h3>
+                    <p>Collaborated with Dr Alasdair Rae on travel time analysis for Radiotherapy4Life using QGIS, Excel for analysis. <br>Datasets used: UK Population dataset, Radiotherapy location datasets </p>
+                    <a href="https://drive.google.com/file/d/1ACJfzjmv0QVJPyHdbKpcIf85masl21Ul/view"><i class="fa-solid fa-file-lines"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Drainage and Catchment Map.png">
+                <br>
+                <p>Hydrological Analysis, San Marcos River, Texas</p>
+                <div class="layer">
+                    <h3>Hydrological Analsyis and Catchment mapping</h3>
+                    <p>Utilised raster analysis tools, mosaic tools, flow accumulation & hydrologic terrain analysis.</p>
+                    <a href="#"><i class="fa-solid fa-file-lines"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------Contact----------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>pankajparmar10110@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i>+44 7470094679</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/pankaj-parmar-303123253/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/pankajparmar962/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/PankajPrmr2310"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+                <a href="images/pankaj_parmar_CV.pdf" download class="btn btn2">Download CV</a>
+            
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">
+                    </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Edited and developed by Pankaj. Grateful acknowledgement to Easy Tutorails and he inspiration from their videos</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tabs");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tabs");
+    }
+
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxKGAL4EwmizA7tuPhXJyZ9mB6Zkniey-sLsGY3YR0iRAdUp2172ZXLDzMfi3p6d163/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Thanks for reaching out. Your message has been sent."
+            setTimeout(function()
+        {msg.innerHTML = ""}, 5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
