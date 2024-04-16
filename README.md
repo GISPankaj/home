@@ -38,7 +38,7 @@ If you have any questions, feedback, or would like to discuss potential collabor
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to modify, distribute, and use the code as per the terms of this license.
+This project is licensed under the [GPL-3.0](LICENSE). Feel free to modify, distribute, and use the code as per the terms of this license.
 
 Thank you for visiting my GIS Portfolio Website repository! Happy mapping! 🌍🗺️
 
